@@ -74,13 +74,13 @@ export function SettingsContent({
                   <GearSixIcon className="size-4" />
                   <span>General</span>
                 </TabsTrigger>
-                <TabsTrigger
+                {/* <TabsTrigger
                   value="appearance"
                   className="flex shrink-0 items-center gap-2"
                 >
                   <PaintBrushIcon className="size-4" />
                   <span>Appearance</span>
-                </TabsTrigger>
+                </TabsTrigger> */}
                 <TabsTrigger
                   value="apikeys"
                   className="flex shrink-0 items-center gap-2"
@@ -151,7 +151,7 @@ export function SettingsContent({
                   </div>
                 </TabsTrigger>
 
-                <TabsTrigger
+                {/* <TabsTrigger
                   value="appearance"
                   className="w-full justify-start rounded-md px-3 py-2 text-left"
                 >
@@ -159,7 +159,7 @@ export function SettingsContent({
                     <PaintBrushIcon className="size-4" />
                     <span>Appearance</span>
                   </div>
-                </TabsTrigger>
+                </TabsTrigger> */}
 
                 <TabsTrigger
                   value="apikeys"

@@ -14,6 +14,7 @@ import { getUserProfile } from "@/lib/user/api"
 import { ThemeProvider } from "next-themes"
 import Script from "next/script"
 import { LayoutClient } from "./layout-client"
+import LandingPage from "./landing/page"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
